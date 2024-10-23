@@ -1,0 +1,9 @@
+--2024-10-21 17:29:29--  http://xn--q-5gn/
+Resolving xn--q-5gn (xn--q-5gn)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--q-5gn’
+--2024-10-21 17:29:29--  https://packages.microsoft.com/key/microsoft.asc
+Resolving packages.microsoft.com (packages.microsoft.com)... 13.107.246.40, 2620:1ec:bdf::40
+Connecting to packages.microsoft.com (packages.microsoft.com)|13.107.246.40|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2024-10-21 17:29:29 ERROR 403: Forbidden.
+
