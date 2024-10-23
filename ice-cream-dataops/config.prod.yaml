@@ -28,7 +28,7 @@ variables:
       # OBJECT ID FOR prod/PROD ADMIN TK ENTRA GROUP
       readonly_source_id: 596f4080-54a4-43de-9135-03b4b68305b3
       # OBJECT ID FOR prod/PROD ICAPI EXTRACTORS ENTRA GROUP
-      icapi_extractors_source_id: eb4b875a-386f-444a-b55c-58d3ea6239fe
+      icapi_extractors_source_id: dd898725-67be-4bb4-acae-e2949874b7a7
       # Client Ids
       data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID} # replaced by .env
       data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET} # replaced by .env
