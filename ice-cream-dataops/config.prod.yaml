@@ -20,13 +20,13 @@ variables:
       IDP_SCOPES: https://westeurope-1.cognitedata.com/.default
       IDP_TOKEN_URL: ${IDP_TOKEN_URL} # replaced by .env
       # Groups
-      data_developer_source_id: 29466f1a-5e2a-466b-a287-e5a6668cdc39
+      data_developer_source_id: b1174ab8-ea2f-47a9-9df8-857341f607ef
       # OBJECT ID FOR prod/PROD DATA PIPELINE OEE ENTRA GROUP
-      data_pipeline_oee_source_id: 529f01c8-5e47-43ee-8a51-62b3f6bc3701
+      data_pipeline_oee_source_id: d335f54f-8096-45b7-9c67-c174a51cdafd
       # OBJECT ID FOR prod/PROD ADMIN TK ENTRA GROUP
-      readwrite_source_id: 5b2705a5-093e-47af-ae22-d325a3b0d76d
+      readwrite_source_id: 596f4080-54a4-43de-9135-03b4b68305b3
       # OBJECT ID FOR prod/PROD ADMIN TK ENTRA GROUP
-      readonly_source_id: 5b2705a5-093e-47af-ae22-d325a3b0d76d
+      readonly_source_id: 596f4080-54a4-43de-9135-03b4b68305b3
       # OBJECT ID FOR prod/PROD ICAPI EXTRACTORS ENTRA GROUP
       icapi_extractors_source_id: eb4b875a-386f-444a-b55c-58d3ea6239fe
       # Client Ids
