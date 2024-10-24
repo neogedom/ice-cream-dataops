@@ -13,5 +13,5 @@ authentication:
   clientSecret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
   tokenUri: ${IDP_TOKEN_URL}
   # Optional: If idP requires providing the cicd_scopes
-  cdfProjectName: cdf-bootcamp-45-test
+  cdfProjectName: ${CDF_PROJECT}
   scopes: https://westeurope-1.cognitedata.com/.default
