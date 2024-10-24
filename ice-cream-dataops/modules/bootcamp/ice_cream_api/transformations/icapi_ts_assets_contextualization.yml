@@ -15,3 +15,4 @@ authentication:
   # Optional: If idP requires providing the cicd_scopes
   cdfProjectName: ${CDF_PROJECT}
   scopes: https://westeurope-1.cognitedata.com/.default
+
