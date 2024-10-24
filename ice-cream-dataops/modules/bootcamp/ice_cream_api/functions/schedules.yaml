@@ -112,4 +112,16 @@
     clientId: {{ icapi_extractors_client_id }}
     clientSecret: {{ icapi_extractors_client_secret }}
 
+- name: Backfill London once a day for the last 30 days (gap filling - Chicago)
+  functionExternalId: icapi_datapoints_extractor
+  cronExpression: "9 0 * * *"
+  data:
+    backfill: True
+    hours: 720
+    sites:
+      - Chicago
+  authentication:
+    clientId: {{ icapi_extractors_client_id }}
+    clientSecret: {{ icapi_extractors_client_secret }}
+
 
